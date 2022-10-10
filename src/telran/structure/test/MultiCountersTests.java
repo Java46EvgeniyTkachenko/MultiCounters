@@ -44,6 +44,7 @@ MultiCountersImpl multiCount = new MultiCountersImpl();
 	@Test
 	void getMaxItemsTest() {
 		
+		
 		Object expected[] = {"4"};
 		runArraySet(expected, multiCount.getMaxItems());
 		multiCount.addItem("3");
